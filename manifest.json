@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "GTmetrix Analyzer Plugin - Vinod",
+  "description": "This extension will analyze a page using GTmetrix. Cool Right!",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "res/icon.png",
+   "default_popup": "content/popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
